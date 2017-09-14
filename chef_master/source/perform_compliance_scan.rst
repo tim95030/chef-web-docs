@@ -109,7 +109,7 @@ Generate the default attributes file:
 
   chef generate attribute default
 
-Configure the ``audit`` cookbook reporter to send scan data to Automate in the ``mycompany_wrapper/attributes/default.rb`` file. ``audit`` cookbook supports many different configurations, see :doc:`Supported Configurations </audit_supported_configurations>`.
+Configure the ``audit`` cookbook reporter to send scan data to Automate in the ``mycompany_wrapper/attributes/default.rb`` file. For an overview and supported configurations, see :doc:`audit cookbook </audit_cookbook>`.
 
 .. code-block:: ruby
 
@@ -176,3 +176,8 @@ View the results in Chef Automate
 When you go back to your Chef Automate UI under the **Compliance** tab, the **Reporting** dashboard should be visible. By alternating between **Node Status** and **Profile Status** views, you can view the scan results depending on which view is most important to you. The following shows some of the scan results on the bootstrapped node.
 
 .. image:: ../../images/compliance_report_node.png
+
+Next Steps
+================================
+:doc:`Audit Cookbook </audit_cookbook>
+:doc:`Audit Cookbook Supported Configurations </audit_cookbook#supported_configurations>`
