@@ -1,5 +1,7 @@
 Sending Compliance Data to Chef Automate with ``audit`` Cookbook
 =======================================================================
+`[edit on GitHub] <https://github.com/chef/chef-web-docs/blob/master/chef_master/source/audit_cookbook.rst>`__
+
 
 .. note:: The ``audit`` cookbook uses the InSpec gem. It will check for an installed version of InSpec and install it upon finding none. The latest version of InSpec will be installed by default unless otherwise specified with ``node['audit']['inspec_version']``.
 
